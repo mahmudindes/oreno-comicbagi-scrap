@@ -1,0 +1,5 @@
+python-dotenv
+requests
+comicbagi-openapi @ git+https://github.com/mahmudindes/oreno-comicbagi-openapi-python
+comicking-scrap @ git+https://github.com/mahmudindes/oreno-comicking-scrap
+mangadex-openapi @ git+https://github.com/mahmudindes/openapi-mangadex-python

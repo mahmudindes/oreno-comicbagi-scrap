@@ -1,0 +1,1 @@
+-r src/comicbagi_scrap/requirements.txt

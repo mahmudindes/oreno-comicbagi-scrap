@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comicbagi-scrap"
+dynamic = ["dependencies"]
+version = "0.0.1"
+readme = "README.md"
+
+[project.scripts]
+comicbagi-scrap = "comicbagi_scrap:main"
+
+[tool.setuptools.dynamic]
+dependencies = {file = [
+    "src/comicbagi_scrap/requirements.txt"
+]}
+
+[tool.setuptools.packages.find]
+where = [
+    "src"
+]
+include = ["comicbagi_scrap*"]
